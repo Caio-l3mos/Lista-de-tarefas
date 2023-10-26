@@ -23,8 +23,8 @@ export default function Form ({handletarefas}) {
     <Paper style={{padding:"1em"}}>
         <div style={{display:"flex", justfyConentent: "Center"}}>
             
-            <TextField id="outbasiclined-basic" label="Tarefa"  onChange={(e)=> setText(e.target.value)}/>
-            <Button variant="text" onClick={() => handlecreate(text)}> Add</Button>
+            <TextField id="outbasiclined-basic" label="Adicione uma tarefa"   onChange={(e)=> setText(e.target.value)}/>
+            <Button variant="text" onClick={() => handlecreate(text)} style={{marginLeft:'3em', color:'#892cdc'}}> Adicionar</Button>
         </div>
 
        
